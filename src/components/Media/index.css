@@ -1,0 +1,25 @@
+.imgFlex {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.imgFlex .btnFlex {
+  display: flex;
+  gap: 15px;
+}
+.imgFlex .btnFlex button {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s;
+}
